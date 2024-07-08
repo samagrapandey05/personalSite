@@ -15,11 +15,11 @@ function Menu(props) {
     }
     return (
         <div className = "header">
-            <button onClick={routeHome} >
+            <button onClick={routeHome} className="menuButtons">
                 About Me
             </button>
             
-            <button onClick={routeProjects}>Projects</button>
+            <button onClick={routeProjects} className="menuButtons">Projects</button>
             
 
         </div>
